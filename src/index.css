@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @font-face {
   font-family: 'Gilroy';
@@ -7,25 +10,9 @@
                             'embedded-opentype', and 'svg' */
 }
 
-/* {
+* {
   padding: 0;
   margin: 0;
-} */
-
-body {
-  /* background: url(./assets//images/background.jpg) no-repeat center center; */
-  /* background-position: 50%;
-  background-size: cover;
-  height: 100%;
-  position: relative;
-  width: 100%; */
-
-  /* background-image: url(./assets/images/background.jpg);
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; */
-
 }
 
 html {
@@ -34,6 +21,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 50%;
 }
 
 :root {

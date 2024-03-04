@@ -1,8 +1,27 @@
-/* .container {
-  background-image: url(./assets//images/background.jpg);
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring {
+  height: fit-content;
+  position: absolute;
+}
+
+/* .ring {
+  background-image: url(./assets/images/ring.png);
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+  height: fit-content;
+  position: absolute;
+  transform: translateY(-15%) translatez(0px);
+}
+
+.ring::after::before {
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+  background-image: url(./assets/images/ring.png);
 } */
 
 .profile {
