@@ -12,7 +12,7 @@
                             'embedded-opentype', and 'svg' */
 }
 
-.page {
+#page {
   display: flex;
   flex-direction: column;
   justify-content: center;
