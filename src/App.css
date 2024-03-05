@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'GilroyExtraBold';
+  src: local('GilroyExtraBold'), url(./assets/fonts/Gilroy-ExtraBold.otf) format('opentype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), url(./assets/fonts/Gilroy-Light.otf) format('opentype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -8,6 +22,14 @@
 .ring {
   height: fit-content;
   position: absolute;
+}
+
+.name {
+  font-family: 'GilroyExtraBold', sans-serif;
+}
+
+.usernames {
+  font-family: 'Gilroy', sans-serif;
 }
 
 /* .ring {
