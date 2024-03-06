@@ -22,9 +22,7 @@ function App() {
             id="profileThumb"
             src={profileThumb}
             alt="Danny Bao"
-            className="mt-40 md:mt-60 relative"
-            height={200}
-            width={200}
+            className="mt-32 md:mt-60 w-40 md:w-52 relative"
           />
           <h1 id="name" className="text-4xl md:text-5xl my-6">
             Danny Bao
@@ -34,7 +32,7 @@ function App() {
           </h3>
         </header>
 
-        <main className="mt-20 font-bold flex flex-col gap-5 justify-center items-center">
+        <main className="mt-10 font-bold flex flex-col gap-5 justify-center items-center">
           <Button
             buttonText="Official Website"
             href="https://www.ponktoku.dev/"
