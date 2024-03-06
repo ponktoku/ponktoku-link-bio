@@ -51,12 +51,12 @@ function App() {
             icon={<FaLinkedin />}
           ></Button>
         </main>
-        <div id="dashes" className="mt-40">
+        <div id="dashes">
           <div className="text-9xl">--</div>
         </div>
-        <footer className="absolute bottom-5 text-gray-200">
+        <footer className="text-gray-200">
           <p>
-            &#169; 2024 Danny Bao. Made with{" "}
+            2024 Danny Bao. Made with{" "}
             <a
               href="https://react.dev/"
               target="_blank"
