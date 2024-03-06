@@ -13,12 +13,13 @@ function App() {
           id="part-one"
         >
           <img
+            id="greenRing"
             src={ring}
             alt="ring"
-            className="absolute max-w-fit top-0.5 -z-10"
-            width={"100%"}
+            className="absolute max-w-fit top-0.5 -z-10 w-[600px] md:w-[800px]"
           />
           <img
+            id="profileThumb"
             src={profileThumb}
             alt="Danny Bao"
             className="mt-40 md:mt-60 relative"
@@ -56,10 +57,10 @@ function App() {
             icon={<FaLinkedin />}
           ></Button>
         </main>
-        <div className="mt-40">
+        <div id="dashes" className="mt-40">
           <div className="text-9xl">--</div>
         </div>
-        <footer className="absolute bottom-1 text-gray-600">
+        <footer className="absolute bottom-5 text-gray-200">
           <p>
             &#169; 2024 Danny Bao. Made with{" "}
             <a

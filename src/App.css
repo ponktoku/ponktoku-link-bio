@@ -12,6 +12,26 @@
                             'embedded-opentype', and 'svg' */
 }
 
+@keyframes slideUp {
+  0% {
+    transform: translateY(20%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 #page {
   display: flex;
   flex-direction: column;
@@ -19,38 +39,37 @@
   align-items: center;
 }
 
-.ring {
-  height: fit-content;
-  position: absolute;
+header {
+  animation: 1.5s ease-out 0s 1 slideUp;
+}
+
+#greenRing {
+  animation: 1.5s ease-out 0s 1 slideUp;
+}
+
+#profileThumb {
+  animation: 1.6s ease-out 0s 1 slideUp;
 }
 
 #name {
+  animation: 1.8s ease-out 0s 1 slideUp;
   font-family: 'GilroyExtraBold', sans-serif;
 }
 
 #usernames {
+  animation: 2s ease-out 0s 1 slideUp;
   font-family: 'Gilroy', sans-serif;
 }
 
-/* .ring {
-  background-image: url(./assets/images/ring.png);
-  background-size: cover;
-  height: fit-content;
-  position: absolute;
-  transform: translateY(-15%) translatez(0px);
+main {
+  animation: 3.5s ease-out 0s 1 fadeInAnimation;
 }
 
-.ring::after::before {
-  border: 0 solid #e5e7eb;
-  box-sizing: border-box;
-  background-image: url(./assets/images/ring.png);
-} */
-
-.profile {
-  width: 50px;
-  height: 50px;
+#dashes {
+  animation: 3.75s ease-out 0s 1 fadeInAnimation;
 }
 
 footer {
+  animation: 4s ease-out 0s 1 fadeInAnimation;
   font-family: 'Gilroy', sans-serif;
 }
