@@ -35,12 +35,6 @@ function App() {
         </header>
 
         <main className="mt-20 font-bold flex flex-col gap-5 justify-center items-center">
-          {/* <div>
-            <a className="bg-[#2B2B2B] opacity-90 px-40 py-3 rounded-full border-white border-2 hover:text-[#2B2B2B] hover:border-[#e1e05b] hover:bg-[#E1E05B]">
-              <FaHome className="inline-block mr-2"></FaHome>
-              <button>Official Website</button>
-            </a>
-          </div> */}
           <Button
             buttonText="Official Website"
             href="https://www.ponktoku.dev/"
