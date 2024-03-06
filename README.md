@@ -2,6 +2,8 @@
 
 This website takes direct inspiration from [Hypergryph's Tales within the Sand website](https://ak.hypergryph.com/ra/taleswithinthesand) for design.
 
+![thumbnail](./thumb.jpg)
+
 ## Stack
 
 - React - The library for web and native user interfaces
