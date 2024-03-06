@@ -14,12 +14,14 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
-  /* height: 100vh; */
   z-index: -1;
+
+  /* Remove commented styles to disable scrolling on the page (useful for mobile views) */
+  /* height: 100vh; */
+  /* position: fixed; */
 }
 
 :root {
