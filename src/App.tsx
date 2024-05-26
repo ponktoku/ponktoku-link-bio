@@ -2,6 +2,7 @@ import "./App.css";
 import profileThumb from "./assets/images/danny.png";
 import ring from "./assets/images/ring.png";
 import { FaHome, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaComputer } from "react-icons/fa6";
 import Button from "./components/Button";
 
 function App() {
@@ -47,6 +48,11 @@ function App() {
             buttonText="Linkedin"
             href="https://www.linkedin.com/in/danny-bao/"
             icon={<FaLinkedin />}
+          ></Button>
+          <Button
+            buttonText="What I Use"
+            href="https://uses.ponktoku.dev/"
+            icon={<FaComputer />}
           ></Button>
         </main>
         <div id="dashes">
