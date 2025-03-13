@@ -41,7 +41,7 @@ function App() {
           />
           <Button
             buttonText="Github"
-            href="https://github.com/DannyBoy5930"
+            href="https://github.com/ponktoku"
             icon={<FaGithub />}
           />
           <Button
